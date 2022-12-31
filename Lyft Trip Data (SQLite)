@@ -1,0 +1,39 @@
+-- #3
+-- SELECT riders.first,
+--    riders.last,
+--    cars.model
+-- FROM riders, cars;
+-- #4
+-- SELECT *
+-- FROM trips
+-- LEFT JOIN riders 
+--   ON trips.rider_id = riders.id;
+-- #5
+-- SELECT *
+-- FROM trips
+-- INNER JOIN cars
+-- ON trips.car_id = cars.id; 
+
+-- #6
+-- SELECT *
+-- FROM riders
+-- UNION
+-- SELECT * 
+-- FROM riders2;
+
+-- #7
+-- SELECT AVG(cost)
+-- FROM trips;
+-- #8
+-- SELECT *
+-- FROM riders
+-- WHERE total_trips < 500;
+-- #9
+-- SELECT COUNT(*)
+-- FROM cars
+-- WHERE status = 'active';
+-- #10
+-- SELECT *
+-- FROM cars
+-- ORDER BY trips_completed DESC
+-- LIMIT 2;
